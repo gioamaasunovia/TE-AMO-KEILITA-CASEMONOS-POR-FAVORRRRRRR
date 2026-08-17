@@ -1,0 +1,92 @@
+/* Configuración de texto y alineación general */
+body {
+    background-color: #fdf0f4;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #ab9595; /* Color café/marrón suave del texto normal */
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 18px;
+    font-size: 0.95rem;
+}
+
+/* Encajes e imágenes decorativas */
+.lace-border {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.divider-swirl {
+    width: 220px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.ilustration {
+    width: 250px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Estilos de títulos y textos resaltados */
+.heading-title {
+    color: #a8908e;
+    font-size: 0.95rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.sub-heading {
+    color: #ab9595;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Resaltado rosa suave para palabras clave */
+.highlight {
+    color: #ffd3dd;
+    font-weight: bold;
+}
+
+/* Texto completamente en rosa suave */
+.pink-text {
+    color: #ffd3dd;
+    font-weight: bold;
+}
+
+/* Enlace/botón simple estilo texto */
+.nav-link {
+    color: #ab9595;
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.heart-icon {
+    width: 16x;            /* Tamaño del corazón */
+    height: auto;
+    vertical-align: middle; /* Lo alinea exactamente a la altura del texto */
+    margin: 0 0px;         /* Espacio entre el corazón y el texto */
+}
+
+.nav-link a {
+    color: inherit;
+}
